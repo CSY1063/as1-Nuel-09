@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="icon" href="images\favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/18b6a7bae3.js" crossorigin="anonymous"></script>
+    
+    <title>contacts</title>
 </head>
 <body>
-
+    <header>
+        <h1><section class="firstletter">E</section>mmanuel</h1>
+    </header>
     
    <nav>
     <ul>
@@ -17,6 +24,37 @@
         <li><a href="site report.html">Site report</a></li>
     </ul>
 </nav>
+
+<main class="mycontact">
+    <aside class="contact_left">
+        <h2>Contact Me</h2>
+        <p><i class="fa-solid fa-paper-plane"></i> somtochukwu.umeh22@my.northampton.ac.uk</p>
+        <p><i class="fa-solid fa-phone"></i> +44 (0)123456789</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/lily.chrizy" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Nuel_chrizy" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/Nuel-09/Web-development" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/emmanuel-umeh-3727271aa/" target="blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://discord.com/channels/@me" target="blank"><i class="fab fa-discord"></i></a>
+           
+        </div>
+       </aside>
+    <section class="cv">
+        <a href="Umeh Emmanuel CV.docx" download>Download CV</a>
+    </section>
+    <section class="contact_right">
+     <form class="forms"> 
+        <label for="yourname"></label>
+        <input type="text" name="yourname" placeholder="Your Name" required>     
+        <label for="email"></label>
+        <input type="email" name="email" placeholder="Your email" required>  
+        <label for="messages"></label>
+        <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
+       <button type="submit" class="button">Submit</button>
+    </form>
+</section>
+</main>
+<footer></footer>
     
 </body>
 </html> 
