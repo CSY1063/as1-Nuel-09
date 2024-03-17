@@ -227,3 +227,8 @@ form input, form textarea{
     column-gap: 1em;
     row-gap: 1em;
 }
+
+iframe {
+    width: 800px;
+    height: 500px;
+}
