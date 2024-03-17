@@ -31,8 +31,9 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    colour
+    color: aliceblue;
 }
+
 .cancel {
     display: none;
 }
