@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+   background-image: url(back_image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 30% 70%;
+   grid-template-rows: auto;
+   grid-template-areas: 
+           "header nav"
+           "main main"
+           "footer footer"
+           ;
+}    
+
+/* -----Navigation------ */
+
+nav {
+    background-color: rgba(95, 115, 154, 0.933);
+    height: 10vh;
+    border-radius: 40px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+nav ul li{ 
+    display: inline-block;
+    padding: 1em 1em;
+    margin: 2px;
+    
+}
+
+.cancel {
+    display: none;
+}
+  
+
+/* styling the main and the aside section of the homepage */
+.maintext, .myimage {
+    display: flex;
+}
+main, aside {
+    grid-area: main;
+}
+
+/* moving down the section element within Main tag in the home page */
+.aboutme{
+        margin-top: 5em;
+        margin-left: 4em;
+        text-align: center;       
+}
+
+/* styling the main and the aside section of the homepage */
+.maintext, .myimage {
+    display: flex;
+}
+
+/* positioning the image in the home page */
+.picsofme{ 
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    top: -6em;
+    right: -5em;
+    border-radius: 90%;
+}
+
+/* ------footer----- */
+
+footer .icon {
+    margin-top: -7em;
+    border-bottom: 0.4em solid white;
+    width: 90%;
+    margin-left: 3em;
+    padding-bottom: 0em;
+}
+footer .icon a {
+    padding-left: 8em;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+    justify-content: space-around ;
+}
+
+.foot {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: rgb(244, 240, 240);
+    margin-bottom: 30em;
+    border-top: 5em solid rgb(228, 42, 42);
+}
+footer {
+    grid-area: footer;
+}
+    
+footer .icon {
+    margin-top: -7em;
+    border-bottom: 0.4em solid white;
+    width: 90%;
+    margin-left: 3em;
+    padding-bottom: 0em;
+}
+footer .icon a {
+    padding-left: 8em;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+    justify-content: space-around ;
+      
+}

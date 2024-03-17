@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="images\favicon-16x16.png">
+    <!-- <link rel="stylesheet" href="main.css" media="screen"> -->
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
+    <link rel="icon" href="images/favicon-16x16.png">
     <script src="https://kit.fontawesome.com/18b6a7bae3.js" crossorigin="anonymous"></script>
     
     <title>contacts</title>
 </head>
-<body>
-    <header>
-        <h1><section class="firstletter">E</section>mmanuel</h1>
+<body id="clicked">
+    <header class="head">
+         <h1>Emmanuel</h1>
+         <a href="#clicked" class="showNav on"></a>
     </header>
-    
-   <nav>
-    <ul>
-        <li><a href="homepage.html"><i class="fa-solid fa-house"></i> Home page</a></li>
-        <li><a href="project.html"><i class="fa-solid fa-list-check"></i> projects</a></li>
-        <li><a href="contact.html"><i class="fa-solid fa-phone-volume"></i> Contacts</a></li>
-        <li><a href="videoDemo.html"><i class="fa-solid fa-layer-group"></i> Video Demonstration</a></li>
-        <li><a href="site report.html"><i class="fa-regular fa-lightbulb"></i> Site report</a></li>
-    </ul>
+     
+    <nav class="off">
+        
+        <ul>
+           <li><a href="#" class="cancel off">X</a></li>
+          <li><a href="homepage.html"><i class="fa-solid fa-house"></i> Home page</a></li>
+          <li><a href="project.html"><i class="fa-solid fa-list-check"></i> projects</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-phone-volume"></i> Contacts</a></li>
+          <li><a href="videoDemo.html"><i class="fa-solid fa-layer-group"></i> Video Demo</a></li>
+          <li><a href="sitereport.html"><i class="fa-regular fa-lightbulb"></i> Site report</a></li>
+          </ul>
 </nav>
 
 <main class="mycontact">
@@ -38,27 +43,24 @@
            
         </div>
        </aside>
-    <section class="cv">
-        <a href="Umeh Emmanuel CV.docx" download>Download CV</a>
-    </section>
-    <section class="contact_right">
+    <div class="cv">
+        <a href="CV.docx" download="CV.docx">Download CV</a>
+    </div>
+    <div class="contact_right">
      <form class="forms"> 
-        <label for="yourname"></label>
-        <input type="text" name="yourname" placeholder="Your Name" required>     
-        <label for="email"></label>
+        <input type="text" name="name" placeholder="Your Name" required>     
         <input type="email" name="email" placeholder="Your email" required>  
-        <label for="messages"></label>
         <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
        <button type="submit" class="button">Submit</button>
     </form>
-</section>
+   </div>
 </main>
 <footer>
     <section class="foot">
-        <p>&copy; All Rights Reserved 2024</p>
-        <p>Designed By Umeh Emmanuel</p>
-     </section>   
-</footer>
+       <h3>&copy; All Rights Reserved 2024</h3>
+       <p>Designed By Umeh Emmanuel</p>
+    </section>   
+  </footer>
     
 </body>
 </html> 

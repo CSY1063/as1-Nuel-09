@@ -4,49 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="main.css" media="screen"> -->
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
     <script src="https://kit.fontawesome.com/18b6a7bae3.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images\favicon-32x32.png">
+    <link rel="icon" href="images/favicon-32x32.png">
 </head>
-<body>
-    <header>
-        <h1><section class="firstletter">E</section>mmanuel</h1>
+<body id="clicked">
+    <header class="head">
+         <h1>Emmanuel</h1>
+         <a href="#clicked" class="showNav on"></a>
     </header>
-    
-   <nav>
-    <ul>
-        <li><a href="homepage.html"><i class="fa-solid fa-house"></i> Home page</a></li>
-        <li><a href="project.html"><i class="fa-solid fa-list-check"></i> projects</a></li>
-        <li><a href="contact.html"><i class="fa-solid fa-phone-volume"></i> Contacts</a></li>
-        <li><a href="videoDemo.html"><i class="fa-solid fa-layer-group"></i> Video Demonstration</a></li>
-        <li><a href="site report.html"><i class="fa-regular fa-lightbulb"></i> Site report</a></li>
-    </ul>
-</nav>
-<main class="Projects">
+     
+    <nav class="off">
+        
+        <ul>
+           <li><a href="#" class="cancel off">X</a></li>
+          <li><a href="homepage.html"><i class="fa-solid fa-house"></i> Home page</a></li>
+          <li><a href="project.html"><i class="fa-solid fa-list-check"></i> projects</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-phone-volume"></i> Contacts</a></li>
+          <li><a href="videoDemo.html"><i class="fa-solid fa-layer-group"></i> Video Demo</a></li>
+          <li><a href="sitereport.html"><i class="fa-regular fa-lightbulb"></i> Site report</a></li>
+          </ul>
+     </nav><main class="Projects">
     <div>
-        <h1>To do list Application software</h1>
         <img src="images\To_do_list-application.png" alt="A to do list application image">
+        <h2>To do list Application software</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, itaque alias. Voluptatem, itaque. Repellendus commodi </p>
     </div>
     <div>
-        <h1>Cafe Menue</h1>
         <img src="images\Cafe_menu.jpeg" alt="An image of Cafe menue">
+        <h2>Cafe Menue</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, itaque alias. Voluptatem, itaque. Repellendus commodi </p>
-    </div><div>
-        <h1>Weather App</h1>
+    </div>
+    <div>
         <img src="images\weather_app.png" alt="An image of Weather App">
+        <h2>Weather App</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, itaque alias. Voluptatem, itaque. Repellendus commodi </p>
     </div><div>
-        <h1>Interactive Gallery</h1>
         <img src="images\Wonderlab-at-the-Science-Museum.jpg" alt="An Interractive gallery image">
+        <h2>Interactive Gallery</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, itaque alias. Voluptatem, itaque. Repellendus commodi </p>
     </div>
 </main>
 <footer>
-    <section class="foot">
-        <p>&copy; All Rights Reserved 2024</p>
-        <p>Designed By Umeh Emmanuel</p>
-     </section>   
-</footer>
+ <section class="foot">
+   <h3>&copy; All Rights Reserved 2024</h3>  
+   <p>Designed By Umeh Emmanuel</p>
+ </section>   
+  </footer>
 </body>
 </html>
