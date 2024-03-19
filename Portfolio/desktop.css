@@ -165,6 +165,9 @@ main.Projects {
     font-size: 1.5em;
     text-decoration: none;
 }
+.cv:hover {
+    background-color: rgb(180, 169, 169);
+}
 .cv a {
     text-decoration: none;
     color: brown;
